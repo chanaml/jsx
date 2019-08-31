@@ -12,7 +12,7 @@ const App = function() {
     
     return (
     <div>
-        <label className = "label" for="name">{labelName}</label>
+        <label className = "label" htmlFor="name">{labelName}</label>
         <input id="name" type = "text"/>
         <button style ={{backgroundColor: 'blue', color: 'white'}}>
             {buttonText}
